@@ -4,7 +4,7 @@
 Source unique de vérité pour l'affichage des catégories COG.
 
 Avant ce module, le code couleur COG était défini deux fois : une fois dans
-PROJET_PYTHON_GERMAIN.get_cog_colors() et une fois dans
+app.get_cog_colors() et une fois dans
 export_results.get_cog_colors(). Les deux copies avaient déjà divergé
 (la categorie du bas valait "lightgray" dans l'une et
 "#D3D3D3" dans l'autre). Tout ce qui concerne le rendu d'une catégorie COG

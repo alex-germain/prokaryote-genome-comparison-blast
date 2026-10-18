@@ -106,7 +106,7 @@ python3 -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
-python PROJET_PYTHON_GERMAIN.py
+python app.py
 ```
 
 On the first launch the application downloads the RefSeq metadata for bacteria
@@ -139,7 +139,7 @@ instead of being recomputed. Delete a file to force it to be regenerated.
 
 | File | Role |
 |---|---|
-| `PROJET_PYTHON_GERMAIN.py` | Tkinter interface and application logic |
+| `app.py` | Tkinter interface and application logic (entry point) |
 | `create_local_DB.py` | Builds the local RefSeq metadata index |
 | `telechargement_genomes.py` | Downloads and decompresses `.faa` and `.gff` |
 | `lancer_blast.py` | `makeblastdb` + `blastp` |
