@@ -1,0 +1,66 @@
+# ---------------------------------------------------------------------------
+# Donnees telechargees et resultats d'analyse
+# ---------------------------------------------------------------------------
+# Rien de tout cela n'est redistribue : ce sont des fichiers NCBI que le
+# programme retelecharge tout seul, ou des resultats qu'il recalcule. Les
+# genomes et la base COG pesent plusieurs centaines de Mo.
+genomes/
+blast_results/
+cog_results/
+Local_DB/
+data/
+COG/
+
+# Tables COG a telecharger depuis ftp.ncbi.nlm.nih.gov/pub/COG/
+cognames2003-2014.tab
+fun2003-2014.tab
+
+# Formats de donnees volumineux, quel que soit l'emplacement
+*.faa
+*.fasta
+*.gff
+*.gz
+*.tsv
+*.phr
+*.pin
+*.psq
+*.pdb
+*.pot
+*.ptf
+*.pto
+
+# Rapports produits par le programme
+Summary_*.pdf
+Summary_*.csv
+dotplot.png
+
+# ---------------------------------------------------------------------------
+# Documents de cours
+# ---------------------------------------------------------------------------
+# En francais et contiennent un numero d'etudiant : conserves en local,
+# non publies.
+diapos_projet_python.pptx
+diapos_projet_python.pdf
+Fiche_Projet_GERMAIN.pdf
+readme.txt
+
+# Telechargements depuis l'application Claude : doublons de fichiers deja
+# en place dans le depot.
+Claude outputs/
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ---------------------------------------------------------------------------
+# Systeme et editeurs
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

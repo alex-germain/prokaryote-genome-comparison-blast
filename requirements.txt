@@ -1,0 +1,16 @@
+# Dependances Python du projet.
+#   pip install -r requirements.txt
+#
+# Tkinter n'est pas installable par pip : il fait partie de la bibliotheque
+# standard mais est empaquete separement sur Linux.
+#   Debian/Ubuntu : sudo apt install python3-tk
+#   Fedora        : sudo dnf install python3-tkinter
+#   conda         : inclus dans l'interpreteur
+#
+# BLAST+ (makeblastdb, blastp, rpsblast) est un outil externe, pas un paquet
+# Python. Voir le README.
+
+requests>=2.25
+matplotlib>=3.5
+mplcursors>=0.5
+reportlab>=3.6
