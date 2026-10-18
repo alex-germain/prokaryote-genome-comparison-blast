@@ -8,7 +8,8 @@ COG functional category, and exports a report as CSV or PDF.
 Written as a university project (MSc Bioinformatics, Sorbonne University),
 then cleaned up for publication.
 
-![Status](https://img.shields.io/badge/python-3.8%2B-blue)
+![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 ---
 
